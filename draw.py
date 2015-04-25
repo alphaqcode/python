@@ -24,6 +24,8 @@ for x in range(width):
 for t in range(4):
     draw.text((60*t + 10,10),rndChar(),font=font,fill=rndColor2())
 
+
+
 image.save('code_nature.jpg','jpeg')
 
 image = image.filter(ImageFilter.BLUR)
